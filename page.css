@@ -187,10 +187,9 @@ body {
   left: 50px;
 }
 
-#profiles ul {
+#profiles #name {
   position: relative;
-  left: 600px;
-  list-style: none;  
+  left: 700px; 
 }
 
 /* unvisited link */
