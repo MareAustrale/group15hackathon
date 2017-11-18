@@ -224,7 +224,8 @@ label {
     margin: 6px;
     padding: 12px 20px;
     display: table-cell;
-    width: 50%;
+
+  width: 50%;
 }
 .form textarea {
     font-family: inherit;
@@ -292,3 +293,87 @@ nav a.selected, nav a:hover {
 /* Site Body */
 
 }
+
+/* Comic contact */
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+	width:50%;
+	background:#000;
+	margin:0 0 5px;
+	padding:10px;
+  border: #fff;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+
+}
+
+#contact textarea {
+	height:100px;
+	max-width:50%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:50%;
+	border:5px;
+	background:#235E2C;
+	color:#fff;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#2CEE91;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+.pics{
+
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 5%;
+  border: 5%;
+  display: inline-block;
+}
+#Comic_head{
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+#Comic_line{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+
+}
+
