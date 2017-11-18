@@ -78,6 +78,7 @@ nav a{
   font-weight: 700;
   padding: 15px 10px;
 }
+
 /**************
 Footer
 ***************/
@@ -90,11 +91,12 @@ footer{
   color: #ccc;
 }
 
-.social icons{
-  width: 20px;
-  height: 20px;
+.social-icon{
+  width: 40px;
+  height: 40px;
   margin: 0 5px
 }
+
 /**************
 Page: Portfolio
 ***************/
@@ -122,6 +124,41 @@ body {
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7
+}
+
+#ProfilePhoto {
+  position: relative;
+  float: left;
+  left: 30px;
+  border: 3px solid #73AD21;
+  width: 200px;
+  height: 300px;
+}
+
+#aboutme {
+  position: relative;
+  left: 50px;
+  float: left;
+}
+
+#aboutme #education {
+  position: relative;
+  top: 30px;
+}
+
+#aboutme #awards {
+  position: relative;
+  top: 70px;
+}
+
+#aboutme #work {
+  position: relative;
+  top: 200px;
+}
+
+#aboutme #contact {
+  position: relative;
+  top: 210px;
 }
 
 /**************
