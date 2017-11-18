@@ -124,6 +124,52 @@ body {
   color: #bdc3c7
 }
 
+
+/**************
+Contact Page
+**************/
+form {
+    display: table;
+}
+
+label {
+    display: table-cell;
+}
+
+
+.form input {
+    margin: 6px;
+    padding: 12px 20px;
+    display: table-cell;
+    width: 50%;
+}
+.form textarea {
+    margin: 6px;
+    padding: 12px 20px;
+    width: 50%;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type=submit] {
+   display: block;
+    width: 78px;
+    height: 20px;
+    padding: 0;
+    text-align: center;
+
+}
+/*green input borders*/
+.form input:focus {
+    border: 3px solid #599a68;
+    outline: 0;
+}
+
+.form textarea:focus{
+    border: 3px solid #599a68;
+    outline: 0;
+}
+
 /**************
 Colors
 ***************/
