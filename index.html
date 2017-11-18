@@ -1,32 +1,152 @@
+
 <!Doctype html>
 
 <html>
+
+
   <head>
     <meta charset="utf-8">
     <title> Miranda Bonilla | Developer</title>
-    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="normalize.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|PT+Sans:400,700italic&subset=cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="portfolio.css">
+       <link rel="stylesheet" href="page.css">
+  <style>
+ 
 
+.section1{
+  width: 600px;
+  height: 500px;
+  position: relative;
+  left:35%;
+  top: 1em;
+  margin-left: -100px;
+  overflow: hidden;
+  border: 10px solid #fff;
+}
+.social-icon{
+  width: 30px;
+  height: 30px; 
+}
+.social-icon2{
+  width: 40px;
+  height: 30px; 
+}
+ 
+ .slider1 {
+    width: 600px;
+  text-align: center; 
+    color: #000;
+ }
+
+/*section:hover article{
+  animation-play-state: paused;
+}*/
+
+article{
+  position: absolute;
+  left: 600px;
+  width: 600px;
+  height: 500px;
+  text-align: center; 
+  border-box: box-sizing;
+  padding-top: 20px;
+}
+
+article:nth-of-type(1){
+  animation: slideIn 50s linear 0s infinite;
+}
+article:nth-of-type(2){
+  animation: slideIn 50s linear 4s infinite;
+}
+article:nth-of-type(3){
+  animation: slideIn 50s linear 8s infinite;
+}
+article:nth-of-type(4){
+  animation: slideIn 50s linear 12s infinite; 
+}
+
+article:nth-of-type(5){
+  animation: slideIn 50s linear 16s infinite;
+}
+article:nth-of-type(6){
+  animation: slideIn 50s linear 20s infinite;
+}
+article:nth-of-type(7){
+  animation: slideIn 50s linear 24s infinite;
+}
+article:nth-of-type(8){
+  animation: slideIn 50s linear 28s infinite; 
+}
+
+
+article:nth-of-type(9){
+  animation: slideIn 50s linear 32s infinite;
+}
+article:nth-of-type(10){
+  animation: slideIn 50s linear 36s infinite;
+}
+article:nth-of-type(11){
+  animation: slideIn 50s linear 40s infinite;
+}
+article:nth-of-type(12){
+  animation: slideIn 50s linear 44s infinite; 
+}
+@keyframes slideIn{
+  0% {left: 60px;}
+  1% {left: 0;} 
+  10% {left: 0;}
+  11% {left: -600px;}  
+  100% {left: -600px;}  
+} 
+</style>
   </head>
+
+
+
+
   <body>
     <header>
       <a href="index.html" id="logo">
-      <h1>Miranda Bonilla</h1>
+    <h1>Miranda Bonilla</h1>
       <h2>Full-Stack Developer</h2>
       </a>
       <nav>
-      <ul>
-        <li><a href="index.html" class="selected">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="comics.html">Comics</a></li>
+      <ul>  <li><a href="portfolio.html" class="selected">Portfolio</a></li>
+ +        <li><a href="about.html">About</a></li>
+ +        <li><a href="contact.html">Contact</a></li>
+ +        <li><a href="blog.html">Blog</a></li>
+ +        <li><a href="comics.html">Comics</a></li>
+
       </ul>
       </nav>
-    </header>
+    </header> 
+
+
+
+  <div class="slider">  
+    <section class="section1"> 
+
+  
+        <p class="slider1"> My Recent Projects</p>
+  <article><img src="gdi2.png"></article>
+  <article><img src="gd14.png"></article>
+  <article><img src="gdi3.png"></article> 
+  <article><img src="gdi2.png"></article>
+  <article><img src="gd14.png"></article>
+  <article><img src="gdi3.png"></article>
+  <article><img src="gdi2.png"></article>
+  <article><img src="gd14.png"></article>
+  <article><img src="gdi3.png"></article> 
+  <article><img src="gdi2.png"></article>
+  <article><img src="gd14.png"></article>
+  <article><img src="gdi3.png"></article>  
+</div>
+
+
+  
+
       <div id="wrapper">
-        <section>
+         <section>
           <ul id="gallery">
           <li>
             <a href="Superhero.jpg">
@@ -61,9 +181,9 @@
           </ul>
       </section>
       <footer>
-        <a href="http://twitter.com/MrInvizible" rel="noopener noreferrer" target="_blank"><img src="images/twitter-logo.jpg" alt="Twitter Logo" class="social-icon"></a>
-        <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><img src="images/facebook-logo.png" alt="Facebook" class="social-icon"></a>
-        <p>&copy; 2017 Miranda Bonilla.</p>
+        <a href="http://twitter.com/MrInvizible"><img src="images/twitter-logo.jpg" alt="Twitter Logo" class="social-icon"></a>
+        <img src="images/facebook-logo.png" alt="Facebook" class="social-icon2">
+        <p>&copy; 2017 Miranda Bonilla</p>
       </footer>
     </div>
   </body>
